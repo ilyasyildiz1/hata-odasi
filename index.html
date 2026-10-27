@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hata Odası · Hasta Güvenliği Simülasyonu</title>
+  <meta name="description" content="Hemşirelik eğitimi için hata bulma simülasyonu.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%233E7A6B'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%23FFFFFF' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap">
+  <link rel="stylesheet" href="src/assets/styles.css">
+
+  <!-- Bağımlılıklar: derleme aracı gerektirmeyen ES modülleri -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.3.1",
+      "react-dom/client": "https://esm.sh/react-dom@18.3.1/client?deps=react@18.3.1",
+      "htm": "https://esm.sh/htm@3.1.1"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root">
+    <div class="boot">
+      <div class="boot-mark"></div>
+      <p>Hata Odası yükleniyor…</p>
+    </div>
+  </div>
+  <noscript>Bu uygulama JavaScript gerektirir.</noscript>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
